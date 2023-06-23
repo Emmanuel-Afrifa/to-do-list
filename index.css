@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+#input-section {
+    margin-top: 50px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: lavender;
+    box-shadow: 0px 0px 10px gray;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 20x;
+    border: none;
+    margin-right: 15px;
+}
+
+#activity-input {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#add-button {
+    width: 17%;
+    height: 40px;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 5px;
+}
+
+#add-button:hover {
+    background-color: dimgray;
+    color: white;
+}
+
+#entity-container {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: lavender;
+    margin-bottom: 50px;
+}
+
+.entity {
+    padding: 5px 15px;
+    background-color: lavender;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    box-sizing: border-box;
+}
+
+.entity li {
+    list-style: none;
+    flex: 10;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    padding-right: 10px;
+}
+
+.entity button {
+    flex: 1;
+    cursor: pointer;
+}
+
+.entity .checked {
+    border: 1px solid orange;
+    font-size: 2em;
+    color: orange;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.entity .checked:hover {
+    background-color: orange;
+    color: white;
+}
+
+.entity .removed {
+    border: 1px solid red;
+    font-size: 2em;
+    color: red;
+    border-radius: 5px;
+}
+
+.entity .removed:hover {
+    background-color: red;
+    color: white;
+}
+
+
+@media screen and (max-width: 540px){
+    #input-section {
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+    #entity-container {
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+    .entity .checked {
+        font-size: 1.5em;
+    }
+
+    .entity .removed {
+        font-size: 1.5em;
+    }
+    
+}
