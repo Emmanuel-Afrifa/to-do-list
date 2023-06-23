@@ -15,8 +15,8 @@
 ![Screenshot of the webpage](./Web%20capture_23-6-2023_192842_127.0.0.1.jpeg)
 
 ### Links
-- [Github repository](#)
-- [Deployed site](#)
+- [Github repository](https://github.com/Emmanuel-Afrifa/to-do-list)
+- [Deployed site](https://todo-list-sol.netlify.app/)
 
 ## Process
 ### Tools Used
